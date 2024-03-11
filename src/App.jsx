@@ -3,11 +3,23 @@ import './styles/App.css'
 function App() {
   return (
     <div>
-      <button>
-        <h1>Hello World!</h1>
-      </button>
+      <div className='row'>
+        <button className="square"></button>
+        <button className="square"></button>
+        <button className="square"></button>
+      </div>
+      <div className='row'>
+        <button className="square"></button>
+        <button className="square"></button>
+        <button className="square"></button>
+      </div>
+      <div className='row'>
+        <button className="square"></button>
+        <button className="square"></button>
+        <button className="square"></button>
+      </div>
     </div>
-  )
+  );
 }
 
 export default App
