@@ -1,16 +1,34 @@
-.square {
-  background: white;
-  border: 1px solid black;
+button {
   line-height: 60px;
-  height: 60px;
-  width: 60px;
-  padding: 0;
+  height: 100px;
+  width: 100px;
+  padding: 0px;
+  margin-top: 0px;
+  border: 2px solid black;
   float: left;
-  text-align: center;
+  font-size: 27px;
+  font-weight: bolder;
+  background-color: rgb(250, 240, 152);
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30vh;
 }
 
-.row::after {
+#status {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color: rgb(243, 65, 65);
+}
+
+/* .row::after {
   clear: both;
   content: "";
   display: table;
-}
+} */
